@@ -1,0 +1,22 @@
+s = {
+	id = "76533192-B267-4D25-9D45-C07AB38E4949",
+	internalName = "Edited This Month",
+	title = "Edited This Month",
+	type = "LibrarySmartCollection",
+	value = {
+		{
+			criteria = "touchTime",
+			operation = "inLast",
+			value = 1,
+			value2 = 1,
+			value_units = "months",
+		},
+		{
+			criteria = "edit",
+			operation = "isTrue",
+			value = true,
+		},
+		combine = "intersect",
+	},
+	version = 0,
+}

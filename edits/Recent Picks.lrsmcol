@@ -1,0 +1,22 @@
+s = {
+	id = "941B7EDF-F53E-4B60-A209-1BB751766233",
+	internalName = "Recent Picks",
+	title = "Recent Picks",
+	type = "LibrarySmartCollection",
+	value = {
+		{
+			criteria = "touchTime",
+			operation = "inLast",
+			value = 1,
+			value2 = 1,
+			value_units = "weeks",
+		},
+		{
+			criteria = "pick",
+			operation = "==",
+			value = 1,
+		},
+		combine = "intersect",
+	},
+	version = 0,
+}

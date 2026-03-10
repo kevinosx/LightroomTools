@@ -1,0 +1,22 @@
+s = {
+	id = "086F2FF6-FDE8-478A-A35F-92BB4955D176",
+	internalName = "Edited This Week",
+	title = "Edited This Week",
+	type = "LibrarySmartCollection",
+	value = {
+		{
+			criteria = "touchTime",
+			operation = "inLast",
+			value = 1,
+			value2 = 1,
+			value_units = "weeks",
+		},
+		{
+			criteria = "edit",
+			operation = "isTrue",
+			value = true,
+		},
+		combine = "intersect",
+	},
+	version = 0,
+}

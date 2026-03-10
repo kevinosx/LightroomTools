@@ -1,0 +1,22 @@
+s = {
+	id = "B6B1C83C-8B53-4FF0-9952-6991470EF0BC",
+	internalName = "Edited Today",
+	title = "Edited Today",
+	type = "LibrarySmartCollection",
+	value = {
+		{
+			criteria = "touchTime",
+			operation = "inLast",
+			value = 1,
+			value2 = 1,
+			value_units = "days",
+		},
+		{
+			criteria = "edit",
+			operation = "isTrue",
+			value = true,
+		},
+		combine = "intersect",
+	},
+	version = 0,
+}
