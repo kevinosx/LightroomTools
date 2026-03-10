@@ -1,0 +1,15 @@
+s = {
+	id = "9640B8DF-C77D-422F-921E-2D31424F869A",
+	internalName = "Black and White",
+	title = "Black and White",
+	type = "LibrarySmartCollection",
+	value = {
+		{
+			criteria = "treatment",
+			operation = "==",
+			value = "grayscale",
+		},
+		combine = "intersect",
+	},
+	version = 0,
+}

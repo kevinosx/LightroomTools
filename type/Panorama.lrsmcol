@@ -1,0 +1,16 @@
+s = {
+	id = "B44B6508-8A9E-42B9-9232-D248A3E9E5EE",
+	internalName = "Panorama",
+	title = "Panorama",
+	type = "LibrarySmartCollection",
+	value = {
+		{
+			criteria = "filename",
+			operation = "any",
+			value = "pano",
+			value2 = "",
+		},
+		combine = "intersect",
+	},
+	version = 0,
+}

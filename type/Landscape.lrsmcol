@@ -1,0 +1,20 @@
+s = {
+	id = "B744C828-B53C-46A4-B2E8-4EC1C8BE2AD3",
+	internalName = "Landscape",
+	title = "Landscape",
+	type = "LibrarySmartCollection",
+	value = {
+		{
+			criteria = "aspectRatio",
+			operation = "==",
+			value = "landscape",
+		},
+		{
+			criteria = "edit",
+			operation = "isTrue",
+			value = true,
+		},
+		combine = "intersect",
+	},
+	version = 0,
+}

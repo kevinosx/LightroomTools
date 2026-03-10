@@ -1,0 +1,16 @@
+s = {
+	id = "EE1298FF-B3E6-4307-8706-533F2BF0E411",
+	internalName = "HDR",
+	title = "HDR",
+	type = "LibrarySmartCollection",
+	value = {
+		{
+			criteria = "filename",
+			operation = "any",
+			value = "HDR",
+			value2 = "",
+		},
+		combine = "intersect",
+	},
+	version = 0,
+}

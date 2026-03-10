@@ -1,0 +1,20 @@
+s = {
+	id = "32C72A22-3528-49EC-B456-6A44661A9B61",
+	internalName = "Portrait",
+	title = "Portrait",
+	type = "LibrarySmartCollection",
+	value = {
+		{
+			criteria = "aspectRatio",
+			operation = "==",
+			value = "portrait",
+		},
+		{
+			criteria = "edit",
+			operation = "isTrue",
+			value = true,
+		},
+		combine = "intersect",
+	},
+	version = 0,
+}
