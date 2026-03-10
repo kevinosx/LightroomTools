@@ -1,0 +1,15 @@
+s = {
+	id = "D67C1635-86E5-4427-88E3-7913B00890FA",
+	internalName = "Rejected",
+	title = "Rejected",
+	type = "LibrarySmartCollection",
+	value = {
+		{
+			criteria = "pick",
+			operation = "==",
+			value = -1,
+		},
+		combine = "intersect",
+	},
+	version = 0,
+}

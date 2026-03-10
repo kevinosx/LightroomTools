@@ -1,0 +1,27 @@
+s = {
+	id = "6CB910B3-EC22-45A8-8171-838A0CA8B670",
+	internalName = "1 month stale",
+	title = "1 month stale",
+	type = "LibrarySmartCollection",
+	value = {
+		{
+			criteria = "edit",
+			operation = "isFalse",
+			value = true,
+		},
+		{
+			criteria = "captureTime",
+			operation = "notInLast",
+			value = 1,
+			value2 = 1,
+			value_units = "months",
+		},
+		{
+			criteria = "hasAdjustments",
+			operation = "isFalse",
+			value = true,
+		},
+		combine = "intersect",
+	},
+	version = 0,
+}
